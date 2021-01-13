@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ArrayFinlandia">
+        <item>Aland</item>
+        <item>Finlandia Meridional</item>
+        <item>Finlandia Occidental</item>
+        <item>Finlandia Oriental</item>
+        <item>Laponia</item>
+        <item>Oulu</item>
+    </string-array>
+</resources>

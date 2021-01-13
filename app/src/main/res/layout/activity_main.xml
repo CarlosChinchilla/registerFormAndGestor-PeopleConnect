@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/grandiente">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="40dp">
+
+            <ImageView
+                android:id="@+id/logoImg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="50dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="3dp"
+                android:gravity="center"
+                style="@style/FontTitle"
+                android:text="@string/gesti_n_de_usuarios" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                style="@style/line"/>
+
+            <TextView
+                android:id="@+id/textBusqueda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/Font"
+                android:text="@string/buscar_usuario" />
+
+            <EditText
+                android:id="@+id/editBusqueda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                style="@style/Input"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:hint="@string/tel_fono" />
+
+            <Button
+                android:id="@+id/botonBuscar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                style="@style/Boton"
+                android:text="@string/buscar" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                style="@style/line" />
+
+            <TextView
+                android:id="@+id/textNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/Font"
+                android:text="@string/nuevo_usuario" />
+
+            <Button
+                android:id="@+id/botonRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                style="@style/Boton"
+                android:text="@string/registrar" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

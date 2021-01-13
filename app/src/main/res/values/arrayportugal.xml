@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ArrayPortugal">
+        <item>Algarve</item>
+        <item>Alto Alentejo</item>
+        <item>Baixo Alentejo</item>
+        <item>Beira Alta</item>
+        <item>Beira Baixa</item>
+        <item>Beira Litoral</item>
+        <item>Douro Litoral</item>
+        <item>Estremadura</item>
+        <item>Minho</item>
+        <item>Ribatejo</item>
+        <item>Tràs-os-Montes</item>
+    </string-array>
+</resources>

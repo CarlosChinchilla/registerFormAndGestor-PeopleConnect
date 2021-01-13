@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ArrayAlemania">
+        <item>Baden-Wurtemberg</item>
+        <item>Baviera</item>
+        <item>Baja Sajonia</item>
+        <item>Renania del Norte-Westfalia</item>
+        <item>Hesse</item>
+        <item>Berlín</item>
+        <item>Brandeburgo</item>
+        <item>Renania-Palatinado</item>
+        <item>Sajonia</item>
+        <item>Sajonia-Anhalt</item>
+        <item>Schleswig-Holstein</item>
+        <item>Turingia</item>
+        <item>Bremen</item>
+        <item>Hamburgo</item>
+        <item>Mecklemburgo-Pomerania Occidental</item>
+        <item>Sarre</item>
+    </string-array>
+</resources>
